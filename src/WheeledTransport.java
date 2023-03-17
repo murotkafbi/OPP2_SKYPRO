@@ -1,6 +1,6 @@
-public class WheeledTransport {
-    private  String modelName;
-   private int wheelsCount;
+public abstract class WheeledTransport {
+    private String modelName;
+    private int wheelsCount;
 
 
     public WheeledTransport(String modelName, int wheelsCount) {
@@ -22,5 +22,10 @@ public class WheeledTransport {
 
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
+    }
+
+
+    public void updateTyre() {
+
     }
 }
